@@ -2,10 +2,14 @@
 
 A modern, responsive marketing website for a fictional software license resale startup. Built with React, Vite, and Tailwind CSS.
 
+## Live Demo
+
+Visit the deployed website: [SoftSell](https://credex-assignment.vercel.app/)
+
 ## Features
 
 - 🎨 Modern and responsive design
-- 🌓 Dark mode support
+- 🌓 Dark mode support with system preference detection
 - ✨ Smooth animations with Framer Motion
 - 📱 Mobile-first approach
 - 🔍 SEO optimized
@@ -14,6 +18,8 @@ A modern, responsive marketing website for a fictional software license resale s
 - 🎯 Clear call-to-actions
 - 📊 Customer testimonials
 - 🔒 Secure contact form
+- 🎭 Toast notifications for form submissions
+- 💾 Persistent dark mode preference
 
 ## Tech Stack
 
@@ -23,6 +29,7 @@ A modern, responsive marketing website for a fictional software license resale s
 - Framer Motion
 - React Hook Form
 - Heroicons
+- React Toastify
 
 ## Design Choices
 
@@ -32,17 +39,20 @@ A modern, responsive marketing website for a fictional software license resale s
 - **Layout**: Responsive grid system that works well on all screen sizes
 - **Components**: Modular component structure for maintainability
 - **Dark Mode**: Implemented with system preference detection and manual toggle
+- **Notifications**: Toast notifications for better user feedback
+- **Form Handling**: Client-side validation with react-hook-form
 
 ## Time Spent
 
-- Project Setup: 30 minutes
-- Component Development: 4 hours
-- Styling and Responsiveness: 2 hours
-- Animations and Interactions: 1 hour
-- Testing and Refinement: 30 minutes
-- Documentation: 30 minutes
+- Project Setup: 20 minutes
+- Component Development: 3.5 hours
+- Styling and Responsiveness: 1.5 hours
+- Animations and Interactions: 45 minutes
+- Testing and Refinement: 25 minutes
+- Documentation: 20 minutes
+- Deployment: 10 minutes
 
-Total: ~9 hours
+Total: ~7 hours
 
 ## Getting Started
 
@@ -59,5 +69,11 @@ Total: ~9 hours
    ```bash
    npm run build
    ```
+
+## Deployment
+
+The project is deployed on Vercel. The deployment process is automated through GitHub integration.
+
+
 
 
